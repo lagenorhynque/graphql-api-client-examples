@@ -31,7 +31,7 @@ OR
 ```sh
 $ lein uberjar
 $ export OAUTH_TOKEN="<GitHub personal access token>"
-$ java -jar clj-github-api-client.jar
+$ java -jar target/clj-github-api-client.jar
 {:data
  {:repository
   {:issues
