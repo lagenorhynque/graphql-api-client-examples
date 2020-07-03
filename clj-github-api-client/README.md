@@ -49,7 +49,7 @@ $ java -jar target/clj-github-api-client.jar
 
 ## License
 
-Copyright © 2019 Kent OHASHI
+Copyright © 2020 Kent OHASHI
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at

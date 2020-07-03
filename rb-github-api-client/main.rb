@@ -15,7 +15,7 @@ module GitHubAPI
   Client = GraphQL::Client.new(schema: Schema, execute: HTTP)
 end
 
-QFindRecentlyClosedIssues = GitHubAPI::Client.parse <<-'GRAPHQL'
+Query = GitHubAPI::Client.parse <<-'GRAPHQL'
 query FindRecentlyClosedIssues($repository_owner: String!,
                                $repository_name: String!,
                                $issues_last: Int = 20,
@@ -42,7 +42,7 @@ query FindRecentlyClosedIssues($repository_owner: String!,
 GRAPHQL
 
 pp GitHubAPI::Client.query(
-  QFindRecentlyClosedIssues::FindRecentlyClosedIssues,
+  Query::FindRecentlyClosedIssues,
   variables: {
     repository_owner: "octocat",
     repository_name: "Hello-World"
