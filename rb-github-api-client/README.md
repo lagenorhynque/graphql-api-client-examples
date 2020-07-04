@@ -1,5 +1,7 @@
 # rb-github-api-client
 
+A [GitHub GraphQL API](https://docs.github.com/en/graphql) client example implemented in Ruby using [graphql-client](https://github.com/github/graphql-client).
+
 ## Prerequisites
 
 - [Ruby](https://www.ruby-lang.org/ja/)

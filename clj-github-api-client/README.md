@@ -1,5 +1,7 @@
 # clj-github-api-client
 
+A [GitHub GraphQL API](https://docs.github.com/en/graphql) client example implemented in Clojure using [clj-http](https://github.com/dakrone/clj-http) and [venia](https://github.com/Vincit/venia).
+
 ## Prerequisites
 
 - [Java](http://openjdk.java.net/)

@@ -1,5 +1,7 @@
 # java-github-api-client
 
+A [GitHub GraphQL API](https://docs.github.com/en/graphql) client example implemented in Java using [Nodes](https://github.com/americanexpress/nodes).
+
 ## Prerequisites
 
 - [Java](http://openjdk.java.net/)

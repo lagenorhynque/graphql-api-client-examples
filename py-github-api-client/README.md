@@ -1,5 +1,7 @@
 # py-github-api-client
 
+A [GitHub GraphQL API](https://docs.github.com/en/graphql) client example implemented in Python using [GQL](https://github.com/graphql-python/gql).
+
 ## Prerequisites
 
 - [Python](https://www.python.org/)
