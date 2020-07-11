@@ -26,6 +26,8 @@ hs_err_pid*
 
 /.idea
 
+!gradle/wrapper/*.jar
+
 # Ignore Gradle project-specific cache directory
 .gradle
 
