@@ -1,0 +1,23 @@
+query FindRecentlyClosedIssues($repositoryOwner: String!,
+                               $repositoryName: String!,
+                               $issuesLast: Int = 20,
+                               $issuesStates: [IssueState!] = CLOSED,
+                               $labelsFirst: Int = 5) {
+  repository(owner: $repositoryOwner, name: $repositoryName) {
+    issues(last: $issuesLast, states: $issuesStates) {
+      edges {
+        node {
+          title
+          url
+          labels(first: $labelsFirst) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
